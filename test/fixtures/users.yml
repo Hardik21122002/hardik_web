@@ -1,1 +1,5 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+hardik:
+name: hardik bamrotiya
+email: hardik.ats.expert@gmail.com
+password_digest: <%= User.digest('password') %>
