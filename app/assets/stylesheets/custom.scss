@@ -24,7 +24,10 @@ $gray-medium-light: #eaeaea;
 /* universal */ 
 
 body {
-    padding-top: 60px;
+    padding-top: 60px;  
+    background-image: url('f.jpg');
+    background-size:cover;
+  
 }
 
 section {
@@ -88,29 +91,14 @@ p {
 
 /* footer */ 
 
-footer {
-    margin-top: 45px;
-    padding-top: 5px;
-    border-top: 1px solid $gray-medium-light;
-    color: $gray-light;
-    a {
-        color: $gray;
-        &:hover {
-            color: $gray-darker;
-        }
-    }
-    small {
-        float: left;
-    }
-    ul {
-        float: right;
-        list-style: none;
-        li {
-            float: left;
-            margin-left: 15px;
-        }
-    }
-}   
+.copyright{ 
+    font-weight: bold; 
+    font-size: medium; 
+    color: #eaeaea; 
+    font-style: oblique; 
+    text-align: center;
+}
+ 
 
 @media (max-width: 800px) {
     footer {
@@ -207,4 +195,50 @@ input {
 #session_remember_me {
     width: auto;
     margin-left: 0;
+}
+
+/* Users index */
+
+.users {
+    list-style: none;
+    margin: 0;
+    li {
+        overflow: auto;
+        padding: 10px 0;
+        border-bottom: 1px solid $gray-lighter;
+    }
+} 
+ 
+.card_signup {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%; 
+    height: 100%;
+    border-radius: 5px;  
+    padding: 10px;    
+    background-image: url("f.jpg");
+    background-size:cover;
+} 
+
+.card_edit {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;
+    width: 100%; 
+    height: 100%;
+    border-radius: 5px;  
+    padding: 10px;    
+    padding-bottom: 65px; 
+    background-image: url("e.jpg");
+    background-size:cover;
+} 
+
+.card_login {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%; 
+    height: 100%;
+    border-radius: 5px;  
+    padding: 10px;    
+    background-image: url("e.jpg");
+    background-size:cover; 
 }

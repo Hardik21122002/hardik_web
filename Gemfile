@@ -10,9 +10,13 @@ gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server 
 
 gem 'puma', '~> 4.1'   
-gem 'bcrypt', '3.1.13'
-gem 'bootstrap-sass', '3.4.1'
-gem 'psych', '< 4'
+gem 'bcrypt', '3.1.13' 
+gem 'faker', '~> 3.1', '>= 3.1.1' 
+gem 'bootstrap-sass', '3.4.1' 
+gem 'will_paginate', '~> 3.3', '>= 3.3.1' 
+gem 'bootstrap-will_paginate', '~> 1.0'
+gem 'psych', '< 4' 
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
