@@ -5,7 +5,7 @@
     <div class="col-md-6 col-md-offset-3"> 
         <div class="card_signup">
             <%= form_with(model: @user, local: true) do |f| %>
-                <%= render 'shared/error_messages' %>
+               <%= render 'shared/error_messages', object: f.object %>
 
                 <%= f.label :name %>
                 <%= f.text_field :name, class: 'form-control' %>

@@ -10,6 +10,9 @@ gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server 
 
 gem 'puma', '~> 4.1'   
+gem 'image_processing', '~> 1.12', '>= 1.12.2'
+gem 'mini_magick', '4.9.5'
+gem 'active_storage_validations', '~> 1.0', '>= 1.0.3' 
 gem 'bcrypt', '3.1.13' 
 gem 'faker', '~> 3.1', '>= 3.1.1' 
 gem 'bootstrap-sass', '3.4.1' 
